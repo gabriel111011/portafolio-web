@@ -1,0 +1,2126 @@
+:root{
+    --tipografiap:#000000;
+    --calltoaction:#161853;
+    --titulos:#292C6D;
+    --colortipografiasdecalltoaction:#FAEDF0;
+    --tipografiadetitulos:'Montserrat', sans-serif;;
+    --tipografiatitulosycalltoaction: 'Ubuntu', sans-serif;;
+    --backgroundcolordeportafolio:#004dbc;
+    --backgroundcolorportafoliocards:#ffffff;
+    --tipografiasdeparrafos: 'Roboto Slab', serif;;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header--nav{
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+.header--nav ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    
+
+}
+.header--nav ul > li{
+padding-right: 25px;
+
+}
+.header--nav ul > li a{
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+.header--nav-presentacion{
+    display: grid;
+    grid-template-columns: repeat(2,40rem);
+    padding-top:2rem ;
+    padding-left: 4rem;
+}
+.presentacion--titulo{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+.presentacion--titulo .lista--iconos-redsocial{
+    margin-top: 2rem;
+
+}
+.presentacion--titulo .lista--iconos-redsocial li > a img{
+    width: 30px;
+}
+.presentacion--titulo h1{
+
+    text-align: center;
+    margin-bottom: 0px;
+    color:var(--titulos) ;
+     font-family:var(--tipografiadetitulos);
+    margin-left: 59px;
+    font-size: 3.5rem;
+
+}
+.presentacion--titulo h3{
+    padding-left: 11rem;
+    margin-top: 15px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: lighter;
+}
+.presentacion--titulo .botones{
+      margin-left: 12rem;
+}
+.presentacion--titulo .botones button{
+    background-color: var(--calltoaction);
+    border: none;
+    border-radius: 2rem;
+    width: 5.5rem;
+    height: 2.3rem;
+    margin-right: 1.4rem;
+}
+.presentacion--titulo .botones button > a{
+    text-decoration: none;
+    color: var(--colortipografiasdecalltoaction);
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 500;
+}
+.header--nav-presentacion img{
+    width: 30rem;
+    padding-left: 3rem;
+}
+.main--info-about{
+    display: flex;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 3rem;
+    background-color: #FFFFFF;
+}
+.main--info-about img{
+    padding-left: 2rem;
+    width: 20rem;
+    border: none;
+    opacity: 1;
+
+}
+.main--info-about article{
+    padding-top: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.main--info-about article h2{
+    color: var(--titulos);
+    font-family:var(--tipografiadetitulos) ;
+    font-size: 1.4rem;
+    
+}
+.main--info-about article > p{
+    font-family: var(--tipografiasdeparrafos);
+}
+.main-services{
+    background-color: #EEEEEE;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+.main-services h4{
+    color:#2FA4FF;
+    font-family: var(--tipografiatitulosycalltoaction);
+}
+.main-services h1{
+    color: var(--titulos);
+    padding-bottom: 2rem;
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;
+}
+.main-services--cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.main-services--cards article{
+    width: 20rem;
+    border-radius: 20px;
+    background-color:#FFFFFF ;
+    box-shadow: 2px 2px 17px black;
+}
+.main-services--cards article > div{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1rem;
+}
+.main-services--cards article div > h3{
+    color: #2FA4FF;
+    font-size: 1.3rem;
+    font-family: var(--tipografiadetitulos);
+}
+.main-services--cards article div > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-weight:100;
+}
+.main-services--cards article > button{
+    margin-left: 2rem;
+    background-color: var(--calltoaction);
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;
+}
+.main-services--cards article > button a{
+    color:var(--colortipografiasdecalltoaction);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+
+}
+.card-problema--padding{
+    padding-bottom: 1rem;
+}
+.card-problema--padding article > div{
+    padding-bottom: 0px;
+}
+.main-Portafolio{
+    background-color: var(--backgroundcolordeportafolio);
+    margin-top: -20px;
+    height: 30rem;
+}
+.main-Portafolio h1{
+padding-top: 3rem;
+color: #FFFFFF;
+text-align: center;
+font-family: var(--tipografiadetitulos);
+font-size: 3rem;
+font-weight: bolder;
+letter-spacing: 3px;
+}
+.main-Portafolio #parrafoportafolio{
+    color: #FFFFFF;
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 1.5rem;
+    padding-left: 8rem;
+}
+.portafolio-cards{
+    background-color: #FFFFFF;
+    position:relative;
+    margin-left: 8rem;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 20px black;
+    height: 50rem;
+}
+.portafolio-cards--proyects{
+    display: grid;
+    grid-template-columns: repeat(3 , 25rem);
+}
+.portafolio-cards--proyects article{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #EEEEEE;
+    width: 18rem;
+    height: 22rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.portafolio-cards--proyects article > h2{
+    color: #2FA4FF;
+    font-size: 1.7rem;
+    font-family: var(--tipografiadetitulos);
+}
+.portafolio-cards--proyects article > p{
+    font-family: var(--tipografiasdeparrafos);
+}
+.portafolio-cards--proyects article > button{
+    width: 5.5rem;
+    height: 2.3rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 20px black;
+}
+.portafolio-cards--proyects article > button a{
+    font-family: var(--tipografiatitulosycalltoaction);
+    text-decoration: none;
+    color: #2FA4FF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.blog{
+    
+    margin-top: 40rem;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 80rem;
+}
+.blog h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    color: var(--titulos);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+.blog-cards article{
+    margin-top: 2.5rem;
+    width: 18rem;
+    height: 20rem;
+    background-color:#FFFFFF;
+    padding-top: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #000000;
+}
+.blog-cards article h2{
+    color: var(--titulos);
+    font-family: var(--tipografiadetitulos);
+}
+.blog-cards article p{
+    font-family: var(--tipografiasdeparrafos);
+}.blog-cards article button{
+    width: 5.4rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    border-color: var(--calltoaction);
+}
+.blog-cards article > button a{
+    color: var(--backgroundcolordeportafolio);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+}
+.contact{
+    background-color: var(--backgroundcolordeportafolio);
+    height: 30rem;
+    width: 100%;
+    position: absolute;
+    padding-left: 6rem;
+}
+.contact h1{
+    color: #FFFFFF;
+    font-family: var(--tipografiadetitulos);
+    text-align: center;
+    font-size: 3rem;
+}
+.contenedor-fromulario{
+    background-color: #FFFFFF;
+    position: relative;
+    width: 80%;
+    height: 30rem; 
+    display: grid;
+    grid-template-columns: repeat(2 , 35rem);
+    padding-left: 6rem;
+    padding-top: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+
+}
+.formulario-imagenes--nombre h4{
+    color: #000000;
+    font-family: var(--tipografiadetitulos);
+    font-size: 1.5rem;
+}
+.formulario-imagenes--nombre p{
+    color: #000000;
+    font-family: var(--tipografiasdeparrafos);
+    font-weight: 500;
+}
+.formulario-imagenes--nombre .formulario-redessociales{
+    display: flex;
+}
+.formulario-imagenes--nombre .formulario-redessociales img{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+.formulario-contacto{
+    border-radius: 2rem;
+    border-color: var(--backgroundcolordeportafolio);
+    padding-left: 2rem;
+    width: 20rem;
+    height: 17rem;
+}
+.contenedor-fromulario img{
+    width: 25rem;    
+    border-radius: 2rem;
+}
+.formulario-contacto h2{
+ color:var(--titulos);
+ font-family: var(--tipografiadetitulos);
+ font-size: 2rem;
+ text-align: center;
+}
+.formulario-contacto div > input {
+    width: 20rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black;   
+}
+.formulario-contacto > .formulario-caja--texto > input{
+    width: 20rem;
+    height: 8rem;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black;   
+}
+.formulario-contacto .formulario--button {
+    display:inline-grid;
+    
+}
+.formulario-contacto .formulario--button button{
+    width: 5.4rem;
+    height: 2rem;
+    cursor: pointer;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border-color: var(--calltoaction);
+    
+}
+.formulario-contacto .formulario--button span{
+    font-family: var(--tipografiasdeparrafos);    
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+ .formulario--button span > a{
+padding-left: 5px;
+font-family: var(--tipografiatitulosycalltoaction);
+color: var(--titulos);
+}
+
+@media only screen and (max-width:375px) and (min-width: 5px) {
+    :root{
+        --tipografiap:#000000;
+        --calltoaction:#161853;
+        --titulos:#292C6D;
+        --colortipografiasdecalltoaction:#FAEDF0;
+        --tipografiadetitulos:'Montserrat', sans-serif;;
+        --tipografiatitulosycalltoaction: 'Ubuntu', sans-serif;;
+        --backgroundcolordeportafolio:#004dbc;
+        --backgroundcolorportafoliocards:#ffffff;
+        --tipografiasdeparrafos: 'Roboto Slab', serif;;
+    }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header--nav{
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+.header--nav ul{
+   display: flex;
+justify-content: end;
+list-style: none;
+}
+.header--nav ul > li{
+padding-right: 18px;
+
+}
+.header--nav ul > li a{
+ text-decoration: none;
+ color: #000000;
+ font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: bolder;
+}
+.header--nav-presentacion{
+padding-left: 2rem;
+padding-right:2rem;
+}
+.presentacion--titulo{
+font-family: var(--tipografiadetitulos); 
+font-size: 2.5rem;
+color: var(--titulos);   
+text-align: center;
+padding-bottom: 0px;
+margin-top: -52px ;
+
+}
+.presentacion--titulo > h1{
+    margin-bottom:2px ;
+}
+
+.presentacion--titulo > h3{
+    color: #000000;
+    font-size: 1rem;
+}
+.header--nav-presentacion .botones > button{
+    height: 2.5rem;
+    width: 5.5rem;
+    background-color:#FFFFFF ;
+    border-radius: 1rem;
+    border-color: var(--calltoaction);
+}
+.header--nav-presentacion .botones > button > a{
+    color: #000000;
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: bold;
+}
+
+.header--nav-presentacion .lista--iconos-redsocial{
+    display: flex;
+    justify-content: unset;
+    margin-top: 20px;
+}
+
+.lista--iconos-redsocial img{
+    width: 30px;
+    padding-right: 30px;
+    
+}
+
+.header--nav-presentacion > #presentacion{
+    margin-top: 2rem;
+    width: 20rem;
+    margin-bottom: 0rem;
+}
+.main--info-about{
+padding-left: 2rem;
+padding-right: 2rem;  
+}
+.main--info-about img{
+width: 20rem;
+}
+.main--info-about article{
+padding-left: 1rem;
+padding-right: 1rem;   
+}
+.main--info-about article h2{
+  color: var(--titulos);
+  font-family: var(--tipografiadetitulos);
+}
+.main--info-about article > p{
+   font-family: var(--tipografiasdeparrafos);
+    font-weight: 300;
+}
+.main-services{
+    background-color: #EEEEEE;
+    height: 83rem;
+    margin-top: 3rem;  
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.main-services h4{
+    padding-top: 3rem;
+    color: var(--titulos);
+    font-family: var(--tipografiatitulosycalltoaction);
+}
+.main-services h1{
+    color: var(--calltoaction);
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;    
+}
+.main-services--cards{
+    display: block;
+    padding-left: 10px;
+    padding-right: 1.5rem;
+}
+.main-services--cards article{
+    width: 20rem;
+    height: 21.5rem;
+    border-radius: 20px;
+    background-color:#FFFFFF ;
+    box-shadow: 2px 2px 17px black;
+    margin-bottom: 2rem;
+}
+.main-services--cards article > div{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.main-services--cards article div > h3{
+    color: #2FA4FF;
+    font-size: 1.3rem;
+    font-family: var(--tipografiadetitulos);
+}
+.main-services--cards article div > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-weight:100;
+
+}
+.main-services--cards article > button{
+    margin-left: 2rem;
+    background-color: var(--calltoaction);
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;   
+
+}
+.main-services--cards article > button a{
+    color:var(--colortipografiasdecalltoaction);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+
+
+}
+.card-problema--padding{
+    padding-bottom: 1rem;
+
+}
+.card-problema--padding article > div{
+    padding-bottom: 1rem;
+
+}
+.main-Portafolio{
+    background-color: var(--backgroundcolordeportafolio);
+    margin-top: -20px;
+    height: 30rem;   
+}
+.main-Portafolio h1{
+    padding-top: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.main-Portafolio #parrafoportafolio{
+    color: #FFFFFF;
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.portafolio-cards{
+    background-color: #FFFFFF;
+    position:relative;
+    margin-left: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 20px black;
+    height: 130rem;
+}
+.portafolio-cards--proyects{
+   padding-left: 1.3rem;
+   padding-right: 1.3rem;
+   padding-top: 2rem;
+}
+.portafolio-cards--proyects article{
+    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    background-color: #EEEEEE;
+    width: 12rem;
+    height: 19rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.portafolio-cards--proyects article > h2{
+    
+    color: #2FA4FF;
+    font-size: 1.2rem;
+    font-family: var(--tipografiadetitulos);    
+
+}
+.portafolio-cards--proyects article > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 14px;
+}
+.portafolio-cards--proyects article > button{
+    width: 5.5rem;
+    height: 2.3rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 20px black; 
+}
+.portafolio-cards--proyects article > button a{
+    font-family: var(--tipografiatitulosycalltoaction);
+    text-decoration: none;
+    color: #2FA4FF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.blog{
+    margin-top: 112rem;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 80rem;
+}
+.blog h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    color: var(--titulos);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.blog-cards {
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+.blog-cards article{
+    margin-top: 2.5rem;
+    width: 15rem;
+    height: 19rem;
+    background-color:#FFFFFF;
+    padding-top: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #000000;  
+}
+.blog-cards article h2{
+    color: var(--titulos);
+    font-family: var(--tipografiadetitulos);
+}
+.blog-cards article p{
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 14px;
+}
+.blog-cards article button{
+    width: 5.4rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    border-color: var(--calltoaction);
+}
+.blog-cards article > button a{
+    color: var(--backgroundcolordeportafolio);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+}
+.contact{
+    margin-top: 104rem;
+    background-color: var(--backgroundcolordeportafolio);
+    height: 30rem;
+    width: 100%;
+    position: absolute;
+    padding-left: 6rem; 
+}
+.contact h1{
+    color: #FFFFFF;
+    font-family: var(--tipografiadetitulos);
+    text-align: center;
+    font-size: 2rem;
+}
+.contenedor-fromulario{
+    background-color: #FFFFFF;
+    position: relative;
+    width: 80%;
+    height: 30rem; 
+    display: block;
+   
+    padding-left: 1rem;
+    padding-top: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.formulario-imagenes--nombre h4{
+    color: #000000;
+    font-family: var(--tipografiadetitulos);
+    font-size: 1.5rem;
+}
+.formulario-imagenes--nombre p{
+    color: #000000;
+    font-family: var(--tipografiasdeparrafos);
+    font-weight: 500;
+}
+.formulario-imagenes--nombre .formulario-redessociales{
+    display: block;
+}
+.formulario-imagenes--nombre .formulario-redessociales img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    list-style: none;
+}
+.formulario-contacto{
+    border-radius: 2rem;
+    border-color: var(--backgroundcolordeportafolio);
+    padding-left: 2rem;
+    width: 20rem;
+    height: 17rem;
+    padding-bottom: 13rem;
+}
+.contenedor-fromulario img{
+
+    width: 15rem;    
+    border-radius: 2rem;
+}
+.formulario-contacto h2{
+    margin-top: 3rem;
+    color:var(--titulos);
+    font-family: var(--tipografiadetitulos);
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 0px;
+}
+.formulario-contacto div > input {
+ 
+    width: 12rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black;   
+}
+.formulario-contacto > .formulario-caja--texto > input{
+    width: 12rem;
+    height: 7rem;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black; 
+}
+.formulario-contacto .formulario--button {
+    display:inline-grid;
+}
+.formulario-contacto .formulario--button button{
+    width: 5.4rem;
+    height: 2rem;
+    cursor: pointer;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border-color: var(--calltoaction);
+
+}
+.formulario-contacto .formulario--button span{
+  
+    font-family: var(--tipografiasdeparrafos);    
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+ .formulario--button span > a{
+    padding-left: 5px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    color: var(--titulos);
+}
+
+}
+
+/*----------pantalla 480px mobilefirts------------*/
+
+
+@media only screen and (max-width:500px) and (min-width: 376px){
+
+    :root{
+        --tipografiap:#000000;
+        --calltoaction:#161853;
+        --titulos:#292C6D;
+        --colortipografiasdecalltoaction:#FAEDF0;
+        --tipografiadetitulos:'Montserrat', sans-serif;;
+        --tipografiatitulosycalltoaction: 'Ubuntu', sans-serif;;
+        --backgroundcolordeportafolio:#004dbc;
+        --backgroundcolorportafoliocards:#ffffff;
+        --tipografiasdeparrafos: 'Roboto Slab', serif;;
+    }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header--nav{
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+.header--nav ul{
+   display: flex;
+justify-content: end;
+list-style: none;
+}
+.header--nav ul > li{
+padding-right: 18px;
+
+}
+.header--nav ul > li a{
+ text-decoration: none;
+ color: #000000;
+ font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: bolder;
+}
+.header--nav-presentacion{
+padding-left: 2rem;
+padding-right:2rem;
+}
+.presentacion--titulo{
+font-family: var(--tipografiadetitulos); 
+font-size: 2.5rem;
+color: var(--titulos);   
+text-align: center;
+padding-bottom: 0px;
+margin-top: -52px ;
+
+}
+.presentacion--titulo > h1{
+    margin-bottom:2px ;
+}
+
+.presentacion--titulo > h3{
+    color: #000000;
+    font-size: 1rem;
+}
+.header--nav-presentacion .botones > button{
+    height: 2.5rem;
+    width: 5.5rem;
+    background-color:#FFFFFF ;
+    border-radius: 1rem;
+    border-color: var(--calltoaction);
+}
+.header--nav-presentacion .botones > button > a{
+    color: #000000;
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: bold;
+}
+
+.header--nav-presentacion .lista--iconos-redsocial{
+    display: flex;
+    justify-content: unset;
+    margin-top: 20px;
+}
+
+.lista--iconos-redsocial img{
+    width: 30px;
+    padding-right: 30px;
+    
+}
+
+.header--nav-presentacion > #presentacion{
+    margin-top: 2rem;
+    width: 20rem;
+    margin-bottom: 0rem;
+}
+.main--info-about{
+padding-left: 2rem;
+padding-right: 2rem;  
+}
+.main--info-about img{
+width: 20rem;
+}
+.main--info-about article{
+padding-left: 1rem;
+padding-right: 1rem;   
+}
+.main--info-about article h2{
+  color: var(--titulos);
+  font-family: var(--tipografiadetitulos);
+}
+.main--info-about article > p{
+   font-family: var(--tipografiasdeparrafos);
+    font-weight: 300;
+}
+.main-services{
+    background-color: #EEEEEE;
+    height: 83rem;
+    margin-top: 3rem;  
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.main-services h4{
+    padding-top: 3rem;
+    color: var(--titulos);
+    font-family: var(--tipografiatitulosycalltoaction);
+}
+.main-services h1{
+    color: var(--calltoaction);
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;    
+}
+.main-services--cards{
+    display: block;
+    padding-left: 10px;
+    padding-right: 1.5rem;
+}
+.main-services--cards article{
+    width: 20rem;
+    height: 21.5rem;
+    border-radius: 20px;
+    background-color:#FFFFFF ;
+    box-shadow: 2px 2px 17px black;
+    margin-bottom: 2rem;
+}
+.main-services--cards article > div{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.main-services--cards article div > h3{
+    color: #2FA4FF;
+    font-size: 1.3rem;
+    font-family: var(--tipografiadetitulos);
+}
+.main-services--cards article div > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-weight:100;
+
+}
+.main-services--cards article > button{
+    margin-left: 2rem;
+    background-color: var(--calltoaction);
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;   
+
+}
+.main-services--cards article > button a{
+    color:var(--colortipografiasdecalltoaction);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+
+
+}
+.card-problema--padding{
+    padding-bottom: 1rem;
+
+}
+.card-problema--padding article > div{
+    padding-bottom: 1rem;
+
+}
+.main-Portafolio{
+    background-color: var(--backgroundcolordeportafolio);
+    margin-top: -20px;
+    height: 30rem;   
+}
+.main-Portafolio h1{
+    padding-top: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.main-Portafolio #parrafoportafolio{
+    color: #FFFFFF;
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+.portafolio-cards{
+    background-color: #FFFFFF;
+    position:relative;
+    margin-left: 2rem;
+    width: 80%;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 20px black;
+    height: 135rem;
+}
+.portafolio-cards--proyects{
+   padding-left: 1.3rem;
+   padding-right: 1.3rem;
+   padding-top: 2rem;
+}
+.portafolio-cards--proyects article{
+    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    background-color: #EEEEEE;
+    width: 17rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.portafolio-cards--proyects article > h2{
+    
+    color: #2FA4FF;
+    font-size: 1.2rem;
+    font-family: var(--tipografiadetitulos);    
+
+}
+.portafolio-cards--proyects article > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 15px;
+    margin-bottom: 29px;
+}
+.portafolio-cards--proyects article > button{
+    width: 5.5rem;
+    height: 2.3rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 20px black; 
+}
+.portafolio-cards--proyects article > button a{
+    font-family: var(--tipografiatitulosycalltoaction);
+    text-decoration: none;
+    color: #2FA4FF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.blog{
+    margin-top: 112rem;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 80rem;
+}
+.blog h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    color: var(--titulos);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.blog-cards {
+    margin-left: -15px;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+.blog-cards article{
+    margin-top: 2.5rem;
+    width: 15rem;
+    height: 20rem;
+    background-color:#FFFFFF;
+    padding-top: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #000000;  
+}
+.blog-cards article h2{
+    color: var(--titulos);
+    font-family: var(--tipografiadetitulos);
+}
+.blog-cards article p{
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 15px;
+    margin-bottom: 21px;
+}
+.blog-cards article button{
+    width: 5.4rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    border-color: var(--calltoaction);
+}
+.blog-cards article > button a{
+    color: var(--backgroundcolordeportafolio);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+}
+.contact{
+    margin-top: 107rem;
+    background-color: var(--backgroundcolordeportafolio);
+    height: 30rem;
+    width: 100%;
+    position: absolute;
+    padding-left: 6rem; 
+}
+.contact h1{
+    color: #FFFFFF;
+    font-family: var(--tipografiadetitulos);
+    text-align: center;
+    font-size: 2rem;
+}
+.contenedor-fromulario{
+    background-color: #FFFFFF;
+    position: relative;
+    width: 80%;
+    height: 30rem; 
+    display: block;
+   
+    padding-left: 1rem;
+    padding-top: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.formulario-imagenes--nombre h4{
+    color: #000000;
+    font-family: var(--tipografiadetitulos);
+    font-size: 1.5rem;
+}
+.formulario-imagenes--nombre p{
+    color: #000000;
+    font-family: var(--tipografiasdeparrafos);
+    font-weight: 500;
+}
+.formulario-imagenes--nombre .formulario-redessociales{
+    display: block;
+}
+.formulario-imagenes--nombre .formulario-redessociales img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    list-style: none;
+}
+.formulario-contacto{
+    border-radius: 2rem;
+    border-color: var(--backgroundcolordeportafolio);
+    padding-left: 2rem;
+    width: 20rem;
+    height: 17rem;
+    padding-bottom: 13rem;
+}
+.contenedor-fromulario img{
+
+    width: 21rem;    
+    border-radius: 2rem;
+}
+.formulario-contacto h2{
+    margin-top: 3rem;
+    color:var(--titulos);
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0px;
+}
+.formulario-contacto div > input {
+ 
+    width: 17rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black;   
+}
+.formulario-contacto > .formulario-caja--texto > input{
+    width: 17rem;
+    height: 7rem;
+    padding-left: 1rem;
+    margin-bottom: 35px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black; 
+}
+.formulario-contacto .formulario--button {
+    display:inline-grid;
+}
+.formulario-contacto .formulario--button button{
+    width: 5.4rem;
+    height: 2rem;
+    cursor: pointer;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border-color: var(--calltoaction);
+
+}
+.formulario-contacto .formulario--button span{
+  
+    font-family: var(--tipografiasdeparrafos);    
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+ .formulario--button span > a{
+    padding-left: 5px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    color: var(--titulos);
+}
+
+}
+
+
+/*----------Pantallas 900 tableta-------------*/
+
+@media only screen and (max-width: 900px) and (min-width: 501px) {
+
+    :root{
+        --tipografiap:#000000;
+        --calltoaction:#161853;
+        --titulos:#292C6D;
+        --colortipografiasdecalltoaction:#FAEDF0;
+        --tipografiadetitulos:'Montserrat', sans-serif;;
+        --tipografiatitulosycalltoaction: 'Ubuntu', sans-serif;;
+        --backgroundcolordeportafolio:#004dbc;
+        --backgroundcolorportafoliocards:#ffffff;
+        --tipografiasdeparrafos: 'Roboto Slab', serif;;
+    }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header--nav{
+    margin: 0px;
+    background-color: #FFFFFF;
+}
+.header--nav ul{
+   display: flex;
+justify-content: end;
+list-style: none;
+padding-right: 2rem;
+}
+.header--nav ul > li{
+padding-right: 26px;
+
+}
+.header--nav ul > li a{
+ text-decoration: none;
+ color: #000000;
+ font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: bolder;
+}
+.header--nav-presentacion{
+padding-left: 2rem;
+padding-right:2rem;
+}
+.presentacion--titulo{
+font-family: var(--tipografiadetitulos); 
+font-size: 2.5rem;
+color: var(--titulos);   
+text-align: center;
+padding-bottom: 0px;
+margin-top: -52px ;
+
+}
+.presentacion--titulo > h1{
+    margin-bottom:2px ;
+}
+
+.presentacion--titulo > h3{
+    color: #000000;
+    font-size: 1rem;
+}
+.header--nav-presentacion .botones > button{
+    height: 2.5rem;
+    width: 5.5rem;
+    background-color:#FFFFFF ;
+    border-radius: 1rem;
+    border-color: var(--calltoaction);
+}
+.header--nav-presentacion .botones > button > a{
+    color: #000000;
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-weight: bold;
+}
+
+.header--nav-presentacion .lista--iconos-redsocial{
+    display: flex;
+    justify-content: unset;
+    margin-top: 20px;
+    padding-left: 14rem;
+}
+
+.lista--iconos-redsocial img{
+    width: 30px;
+    padding-right: 30px;
+    
+}
+
+.header--nav-presentacion > #presentacion{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    width: 30rem;
+    margin-bottom: 0rem;
+}
+.main--info-about{
+padding-left: 2rem;
+padding-right: 2rem;  
+display: flex;
+}
+.main--info-about img{
+width: 19rem;
+}
+.main--info-about article{
+padding-left: 2rem;
+padding-right: 0rem;   
+}
+.main--info-about article h2{
+  color: var(--titulos);
+  font-family: var(--tipografiadetitulos);
+}
+.main--info-about article > p{
+   font-family: var(--tipografiasdeparrafos);
+    font-weight: 300;
+}
+.main-services{
+    background-color: #EEEEEE;
+    height: 34rem;
+    margin-top: 3rem;  
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.main-services h4{
+    padding-top: 3rem;
+    color: var(--titulos);
+    font-family: var(--tipografiatitulosycalltoaction);
+    margin-left: 23px;
+    margin-top: 29px;
+}
+.main-services h1{
+    color: var(--calltoaction);
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;   
+    margin-left: 23px;
+    margin-top: 14px; 
+}
+.main-services--cards{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 1.5rem;
+}
+.main-services--cards article{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color:#FFFFFF ;
+    box-shadow: 2px 2px 17px black;
+    margin-bottom: 2rem;
+    margin-right: 1.5rem;
+}
+.main-services--cards article > div{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 1rem;
+}
+.main-services--cards article div > h3{
+    color: #2FA4FF;
+    font-size: 1.3rem;
+    font-family: var(--tipografiadetitulos);
+    margin-top: -3.4px;
+    margin-bottom: 8px;
+}
+.main-services--cards article div > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-weight:bold;
+    font-size: 13px;
+}
+
+.main-services--cards article > button{
+    margin-left: 2rem;
+    background-color: var(--calltoaction);
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 1rem;   
+
+}
+.main-services--cards article > button a{
+    color:var(--colortipografiasdecalltoaction);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+
+
+}
+.card-problema--padding{
+    padding-bottom: 1rem;
+
+}
+.card-problema--padding article > div{
+    padding-bottom: 1rem;
+
+}
+.main-Portafolio{
+    margin-top: -32px;
+    background-color: var(--backgroundcolordeportafolio);
+    margin-top: -20px;
+    height: 30rem;   
+}
+.main-Portafolio h1{
+    padding-top: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    font-size: 2.5rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.main-Portafolio #parrafoportafolio{
+    color: #FFFFFF;
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 1.2rem;
+    padding-left: 3rem;
+}
+.portafolio-cards{
+    background-color: #FFFFFF;
+    position:relative;
+    margin-left: 2rem;
+    width: 90%;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 20px black;
+    height: 70rem;
+}
+.portafolio-cards--proyects{
+   padding-left: 1.3rem;
+   padding-right: 1.3rem;
+   padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,22rem);
+}
+.portafolio-cards--proyects article{
+    margin-left: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    background-color: #EEEEEE;
+    width: 17rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.portafolio-cards--proyects article > h2{
+    
+    color: #2FA4FF;
+    font-size: 1.2rem;
+    font-family: var(--tipografiadetitulos);    
+
+}
+.portafolio-cards--proyects article > p{
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 15px;
+    margin-bottom: 29px;
+}
+.portafolio-cards--proyects article > button{
+    width: 5.5rem;
+    height: 2.3rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 5px 5px 20px black; 
+}
+.portafolio-cards--proyects article > button a{
+    font-family: var(--tipografiatitulosycalltoaction);
+    text-decoration: none;
+    color: #2FA4FF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.blog{
+    margin-top: 56rem;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 80rem;
+}
+.blog h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    color: var(--titulos);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.blog-cards {
+    margin-left: -15px;
+   padding-left: 3rem;
+   padding-right: 3rem;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.blog-cards article{
+    margin-top: 2.5rem;
+    width: 17rem;
+    height: 20rem;
+    background-color:#FFFFFF;
+    padding-top: 0px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 30px #000000;  
+}
+.blog-cards article h2{
+    color: var(--titulos);
+    font-family: var(--tipografiadetitulos);
+}
+.blog-cards article p{
+    font-family: var(--tipografiasdeparrafos);
+    font-size: 15px;
+    margin-bottom: 21px;
+}
+.blog-cards article button{
+    width: 5.4rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #FFFFFF;
+    border-color: var(--calltoaction);
+}
+.blog-cards article > button a{
+    color: var(--backgroundcolordeportafolio);
+    text-decoration: none;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+}
+.contact{
+    margin-top: 22rem;
+    background-color: var(--backgroundcolordeportafolio);
+    height: 30rem;
+    width: 100%;
+    position: absolute;
+    margin-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.contact h1{
+    color: #FFFFFF;
+    font-family: var(--tipografiadetitulos);
+    text-align: center;
+    font-size: 2.5rem;
+}
+.contenedor-fromulario{
+    background-color: #FFFFFF;
+    position: relative;
+    width: 90%;
+    height: 30rem; 
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.formulario-imagenes--nombre h4{
+    color: #000000;
+    font-family: var(--tipografiadetitulos);
+    font-size: 1.2rem;
+    margin-bottom: 9px;
+    margin-left: 1rem;
+}
+.formulario-imagenes--nombre p{
+    color: #000000;
+    font-family: var(--tipografiasdeparrafos);
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.formulario-imagenes--nombre .formulario-redessociales{
+    display: block;
+}
+.formulario-imagenes--nombre .formulario-redessociales img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    list-style: none;
+}
+.formulario-contacto{
+    border-radius: 2rem;
+    border-color: var(--backgroundcolordeportafolio);
+    padding-left: 3rem;
+    width: 20rem;
+    height: 17rem;
+    padding-bottom: 13rem;
+    margin-top: -39px;
+}
+.contenedor-fromulario img{
+
+    width: 20rem;    
+    border-radius: 1rem;
+}
+.formulario-contacto h2{
+    margin-top: 3rem;
+    color:var(--titulos);
+    font-family: var(--tipografiadetitulos);
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 0px;
+}
+.formulario-contacto div > input {
+ 
+    width: 17rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1.3rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black;   
+}
+.formulario-contacto > .formulario-caja--texto > input{
+    width: 17rem;
+    height: 7rem;
+    padding-left: 1rem;
+    margin-bottom: 35px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    border-radius: 6px;
+    border: none;
+    background-color: #EEEEEE;
+    box-shadow: 1px 1px 10px black; 
+}
+.formulario-contacto .formulario--button {
+    display:inline-grid;
+}
+.formulario-contacto .formulario--button button{
+    width: 5.4rem;
+    height: 2rem;
+    cursor: pointer;
+    font-family: var(--tipografiatitulosycalltoaction);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border-color: var(--calltoaction);
+
+}
+.formulario-contacto .formulario--button span{
+  
+    font-family: var(--tipografiasdeparrafos);    
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+ .formulario--button span > a{
+    padding-left: 5px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    color: var(--titulos);
+}
+
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 901px){
+    :root{
+        --tipografiap:#000000;
+        --calltoaction:#161853;
+        --titulos:#292C6D;
+        --colortipografiasdecalltoaction:#FAEDF0;
+        --tipografiadetitulos:'Montserrat', sans-serif;;
+        --tipografiatitulosycalltoaction: 'Ubuntu', sans-serif;;
+        --backgroundcolordeportafolio:#004dbc;
+        --backgroundcolorportafoliocards:#ffffff;
+        --tipografiasdeparrafos: 'Roboto Slab', serif;;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header--nav{
+        margin: 0px;
+        background-color: #FFFFFF;
+    }
+    .header--nav ul{
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        
+    
+    }
+    .header--nav ul > li{
+    padding-right: 25px;
+    
+    }
+    .header--nav ul > li a{
+        font-family: 'Ubuntu', sans-serif;
+        color: #000000;
+        font-size: 1.1rem;
+        text-decoration: none;
+    
+    }
+    .header--nav-presentacion{
+        display: grid;
+        grid-template-columns: repeat(2,40rem);
+        padding-top:2rem ;
+        padding-left: 4rem;
+    }
+    .presentacion--titulo{
+        padding-left: 6rem;
+        padding-top: 3rem;
+    }
+    .presentacion--titulo .lista--iconos-redsocial{
+        margin-top: 2rem;
+    
+    }
+    .presentacion--titulo .lista--iconos-redsocial li > a img{
+        width: 30px;
+    }
+    .presentacion--titulo h1{
+    
+        text-align: center;
+        margin-bottom: 0px;
+        color:var(--titulos) ;
+         font-family:var(--tipografiadetitulos);
+        margin-left: 59px;
+        font-size: 3.5rem;
+    
+    }
+    .presentacion--titulo h3{
+        padding-left: 11rem;
+        margin-top: 15px;
+        font-family: var(--tipografiatitulosycalltoaction);
+        font-weight: lighter;
+    }
+    .presentacion--titulo .botones{
+          margin-left: 12rem;
+    }
+    .presentacion--titulo .botones button{
+        background-color: var(--calltoaction);
+        border: none;
+        border-radius: 2rem;
+        width: 5.5rem;
+        height: 2.3rem;
+        margin-right: 1.4rem;
+    }
+    .presentacion--titulo .botones button > a{
+        text-decoration: none;
+        color: var(--colortipografiasdecalltoaction);
+        font-family:'Ubuntu', sans-serif ;
+        font-weight: 500;
+    }
+    .header--nav-presentacion img{
+        width: 30rem;
+        padding-left: 3rem;
+    }
+    .main--info-about{
+        display: flex;
+        padding-top: 3rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-bottom: 3rem;
+        background-color: #FFFFFF;
+    }
+    .main--info-about img{
+        padding-left: 2rem;
+        width: 20rem;
+        border: none;
+        opacity: 1;
+    
+    }
+    .main--info-about article{
+        padding-top: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+    .main--info-about article h2{
+        color: var(--titulos);
+        font-family:var(--tipografiadetitulos) ;
+        font-size: 1.4rem;
+        
+    }
+    .main--info-about article > p{
+        font-family: var(--tipografiasdeparrafos);
+    }
+    .main-services{
+        background-color: #EEEEEE;
+        padding-left: 4rem;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+    .main-services h4{
+        color:#2FA4FF;
+        font-family: var(--tipografiatitulosycalltoaction);
+    }
+    .main-services h1{
+        color: var(--titulos);
+        padding-bottom: 2rem;
+        font-family: var(--tipografiadetitulos);
+        font-size: 2rem;
+    }
+    .main-services--cards{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+    }
+    .main-services--cards article{
+        width: 20rem;
+        border-radius: 20px;
+        background-color:#FFFFFF ;
+        box-shadow: 2px 2px 17px black;
+    }
+    .main-services--cards article > div{
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+        padding-bottom: 1rem;
+    }
+    .main-services--cards article div > h3{
+        color: #2FA4FF;
+        font-size: 1.3rem;
+        font-family: var(--tipografiadetitulos);
+    }
+    .main-services--cards article div > p{
+        font-family: var(--tipografiasdeparrafos);
+        font-weight:100;
+    }
+    .main-services--cards article > button{
+        margin-left: 2rem;
+        background-color: var(--calltoaction);
+        border: none;
+        height: 2rem;
+        width: 5rem;
+        border-radius: 1rem;
+    }
+    .main-services--cards article > button a{
+        color:var(--colortipografiasdecalltoaction);
+        text-decoration: none;
+        font-family: var(--tipografiatitulosycalltoaction);
+    
+    }
+    .card-problema--padding{
+        padding-bottom: 1rem;
+    }
+    .card-problema--padding article > div{
+        padding-bottom: 0px;
+    }
+    .main-Portafolio{
+        background-color: var(--backgroundcolordeportafolio);
+        margin-top: -20px;
+        height: 30rem;
+    }
+    .main-Portafolio h1{
+    padding-top: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: var(--tipografiadetitulos);
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    }
+    .main-Portafolio #parrafoportafolio{
+        color: #FFFFFF;
+        font-family: var(--tipografiasdeparrafos);
+        font-size: 1.5rem;
+        padding-left: 8rem;
+    }
+    .portafolio-cards{
+        background-color: #FFFFFF;
+        position:relative;
+        margin-left: 8rem;
+        width: 80%;
+        border-radius: 2rem;
+        box-shadow: 1px 1px 20px black;
+        height: 50rem;
+    }
+    .portafolio-cards--proyects{
+        display: grid;
+        grid-template-columns: repeat(3 , 25rem);
+    }
+    .portafolio-cards--proyects article{
+        margin-top: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        background-color: #EEEEEE;
+        width: 18rem;
+        height: 22rem;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px black;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .portafolio-cards--proyects article > h2{
+        color: #2FA4FF;
+        font-size: 1.7rem;
+        font-family: var(--tipografiadetitulos);
+    }
+    .portafolio-cards--proyects article > p{
+        font-family: var(--tipografiasdeparrafos);
+    }
+    .portafolio-cards--proyects article > button{
+        width: 5.5rem;
+        height: 2.3rem;
+        border-radius: 15px;
+        border: none;
+        box-shadow: 5px 5px 20px black;
+    }
+    .portafolio-cards--proyects article > button a{
+        font-family: var(--tipografiatitulosycalltoaction);
+        text-decoration: none;
+        color: #2FA4FF;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .blog{
+        
+        margin-top: 40rem;
+        background-color: #EEEEEE;
+        width: 100%;
+        height: 80rem;
+    }
+    .blog h1{
+        padding-top: 3rem;
+        text-align: center;
+        font-family: var(--tipografiadetitulos);
+        color: var(--titulos);
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    .blog-cards {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-right: 6rem;
+        padding-left: 6rem;
+    }
+    .blog-cards article{
+        margin-top: 2.5rem;
+        width: 18rem;
+        height: 20rem;
+        background-color:#FFFFFF;
+        padding-top: 0px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-radius: 1rem;
+        box-shadow: 10px 10px 30px #000000;
+    }
+    .blog-cards article h2{
+        color: var(--titulos);
+        font-family: var(--tipografiadetitulos);
+    }
+    .blog-cards article p{
+        font-family: var(--tipografiasdeparrafos);
+    }.blog-cards article button{
+        width: 5.4rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+        background-color: #FFFFFF;
+        border-color: var(--calltoaction);
+    }
+    .blog-cards article > button a{
+        color: var(--backgroundcolordeportafolio);
+        text-decoration: none;
+        font-family: var(--tipografiatitulosycalltoaction);
+        font-size: 1rem;
+    }
+    .contact{
+        background-color: var(--backgroundcolordeportafolio);
+        height: 30rem;
+        width: 100%;
+        position: absolute;
+        padding-left: 6rem;
+    }
+    .contact h1{
+        color: #FFFFFF;
+        font-family: var(--tipografiadetitulos);
+        text-align: center;
+        font-size: 3rem;
+    }
+    .contenedor-fromulario{
+        background-color: #FFFFFF;
+        position: relative;
+        width: 80%;
+        height: 30rem; 
+        display: grid;
+        grid-template-columns: repeat(2 , 35rem);
+        padding-left: 6rem;
+        padding-top: 2rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    
+    }
+    .formulario-imagenes--nombre h4{
+        color: #000000;
+        font-family: var(--tipografiadetitulos);
+        font-size: 1.5rem;
+    }
+    .formulario-imagenes--nombre p{
+        color: #000000;
+        font-family: var(--tipografiasdeparrafos);
+        font-weight: 500;
+    }
+    .formulario-imagenes--nombre .formulario-redessociales{
+        display: flex;
+    }
+    .formulario-imagenes--nombre .formulario-redessociales img{
+        width: 30px;
+        height: 30px;
+        padding-right: 20px;
+    }
+    .formulario-contacto{
+        border-radius: 2rem;
+        border-color: var(--backgroundcolordeportafolio);
+        padding-left: 2rem;
+        width: 20rem;
+        height: 17rem;
+    }
+    .contenedor-fromulario img{
+        width: 25rem;    
+        border-radius: 2rem;
+    }
+    .formulario-contacto h2{
+     color:var(--titulos);
+     font-family: var(--tipografiadetitulos);
+     font-size: 2rem;
+     text-align: center;
+    }
+    .formulario-contacto div > input {
+        width: 20rem;
+        height: 2.5rem;
+        padding-left: 1rem;
+        margin-bottom: 20px;
+        font-family: var(--tipografiatitulosycalltoaction);
+        font-size: 1.3rem;
+        border-radius: 6px;
+        border: none;
+        background-color: #EEEEEE;
+        box-shadow: 1px 1px 10px black;   
+    }
+    .formulario-contacto > .formulario-caja--texto > input{
+        width: 20rem;
+        height: 8rem;
+        padding-left: 1rem;
+        margin-bottom: 20px;
+        font-family: var(--tipografiatitulosycalltoaction);
+        font-size: 1.3rem;
+        border-radius: 6px;
+        border: none;
+        background-color: #EEEEEE;
+        box-shadow: 1px 1px 10px black;   
+    }
+    .formulario-contacto .formulario--button {
+        display:inline-grid;
+        
+    }
+    .formulario-contacto .formulario--button button{
+        width: 5.4rem;
+        height: 2rem;
+        cursor: pointer;
+        font-family: var(--tipografiatitulosycalltoaction);
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        background-color: #FFFFFF;
+        border-radius: 12px;
+        border-color: var(--calltoaction);
+        
+    }
+    .formulario-contacto .formulario--button span{
+        font-family: var(--tipografiasdeparrafos);    
+        color: #000000;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+     .formulario--button span > a{
+    padding-left: 5px;
+    font-family: var(--tipografiatitulosycalltoaction);
+    color: var(--titulos);
+    }
+    
+}
