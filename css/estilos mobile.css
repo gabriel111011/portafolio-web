@@ -485,27 +485,6 @@
     text-align: left;
     border-radius: 30px;
     
-    margin-top: 25px;
-    margin-bottom: 40px;
-    padding-bottom: 12 px;
-    height: 361px;
-    }
-    .blogpost--cards article > h4{
-        color: yellow;
-        font-family: var(--tipografia-a-font-family);
-        font-size: 24px;
-        margin-top: 3px;
-        margin-bottom: 10px;
-    }
-    .blogpost--cards article > p{
-        color: white;
-        font-family: var(--tipografia-a-font-family);
-        letter-spacing: 1px;
-        letter-spacing: 1px;
-        font-size: 18px;
-        margin-top: 0px;
-        padding-top: 5px;
-        margin-bottom: 10px;
     }
     .blogpost--cards article > button {
         background-color: #002864;
